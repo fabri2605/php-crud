@@ -1,0 +1,32 @@
+
+// Create Project
+
+composer create-project laravel/laravel learn-laravel
+
+Views in resourses -> views ;
+
+Routes un routes ;
+
+// MySQL
+
+mysql -u root -p
+
+create database starter_app
+
+show database
+
+modify .env with mysql info
+
+// laravel
+
+php artisan migrate ( Generates database with migrations content )
+
+php artisan migrate:rollback ( UNDO migrate )
+
+php artisan -> make:controller PostController
+
+php artisan -> make:model Post -m
+
+// statrt 
+
+php artisan serve
